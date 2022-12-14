@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Pr_02_Sum {
     public static void main(String[] arg){
         try(Scanner sc = new Scanner(System.in)){

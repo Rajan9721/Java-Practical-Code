@@ -5,7 +5,7 @@ public class Pr_07_Odd {
 
         for(int i = 1; i<=100; i++){
             if (i%2!=0){
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
     }
