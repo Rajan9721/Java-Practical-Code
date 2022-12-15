@@ -6,6 +6,7 @@ public class Pr_10_Prime {
         System.out.println("Enter a number to know number is prime or not: ");
         int n = sc.nextInt();
         int temp = n/2;
+        int count =0;
         if(temp==0 || temp==1){
             System.out.print(n+" is not prime number.");
             return;
@@ -13,13 +14,12 @@ public class Pr_10_Prime {
         for(int i=2; i<=temp; i++){
             if(n%i==0) {
                 System.out.println(n + " is not prime number.");
+                count = 1;
+                break;
             }
-            else{
-                System.out.println(n+" is prime number.");
-            }
-            break;
-
-
+        }
+        if(count == 0){
+            System.out.println(n+" is prime number");
         }
 
     }
