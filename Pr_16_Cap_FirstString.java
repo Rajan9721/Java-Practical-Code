@@ -4,7 +4,7 @@ public class Pr_16_Cap_FirstString {
 
         public static void main(String[] args){
             Scanner sc = new Scanner(System.in);
-            System.out.print("Enter a String: ");
+            System.out.print("Enter a Sentence: ");
             String str = sc.nextLine();
             String[] words = str.split(" ");
             String newStr = "";
